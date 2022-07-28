@@ -1,0 +1,368 @@
+CRITICAL - 2022-07-15 01:13:49 --> Undefined variable $data_project
+in APPPATH\Views\manajemen_subscribe.php on line 45.
+ 1 APPPATH\Views\manajemen_subscribe.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_project', 'APPPATH\\Views\\manajemen_subscribe.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manajemen_subscribe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('manajemen_subscribe', [], true)
+ 5 APPPATH\Controllers\Subscriber.php(23): view('manajemen_subscribe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Subscriber->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subscriber))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 01:21:25 --> Call to undefined function App\Controllers\user()
+in APPPATH\Controllers\Project_Saya.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Project_Saya->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project_Saya))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 01:21:28 --> Undefined variable $profile_company
+in APPPATH\Views\template\header.php on line 16.
+ 1 APPPATH\Views\template\header.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile_company', 'APPPATH\\Views\\template\\header.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('template/header', null, true)
+ 5 APPPATH\Views\template\content.php(1): CodeIgniter\View\View->include('template/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/content', [], true)
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('manajemen_data_project', [], true)
+10 APPPATH\Controllers\Manajemen_Data_Project.php(19): view('manajemen_data_project', [...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Data_Project->index()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Data_Project))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 01:21:31 --> Undefined variable $profile_company
+in APPPATH\Views\template\header.php on line 16.
+ 1 APPPATH\Views\template\header.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile_company', 'APPPATH\\Views\\template\\header.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('template/header', null, true)
+ 5 APPPATH\Views\template\content.php(1): CodeIgniter\View\View->include('template/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/content', [], true)
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('manajemen_users', [], true)
+10 APPPATH\Controllers\Manajemen_Users.php(19): view('manajemen_users', [...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Users->index()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Users))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 02:22:34 --> Undefined property: stdClass::$name
+in APPPATH\Views\manajemen_message_email.php on line 81.
+ 1 APPPATH\Views\manajemen_message_email.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'APPPATH\\Views\\manajemen_message_email.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manajemen_message_email.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('manajemen_message_email', [], true)
+ 5 APPPATH\Controllers\Manajemen_Category.php(23): view('manajemen_message_email', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Category->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Category))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-15 02:29:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-07-15 02:29:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM product_category WHERE id=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM product_category WHERE id=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM product_category WHERE id=')
+ 4 APPPATH\Controllers\Manajemen_Category.php(43): CodeIgniter\Database\BaseConnection->query('DELETE FROM product_category WHERE id=')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Category->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Category))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-15 02:29:39 --> Cannot delete or update a parent row: a foreign key constraint fails (`shop`.`product_type_category`, CONSTRAINT `product_type_category_ibfk_1` FOREIGN KEY (`id_product_category`) REFERENCES `product_category` (`id`))
+CRITICAL - 2022-07-15 02:29:39 --> Cannot delete or update a parent row: a foreign key constraint fails (`shop`.`product_type_category`, CONSTRAINT `product_type_category_ibfk_1` FOREIGN KEY (`id_product_category`) REFERENCES `product_category` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM product_category WHERE id=5', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM product_category WHERE id=5')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM product_category WHERE id=5')
+ 4 APPPATH\Controllers\Manajemen_Category.php(43): CodeIgniter\Database\BaseConnection->query('DELETE FROM product_category WHERE id=5')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Category->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Category))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-15 03:06:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+CRITICAL - 2022-07-15 03:06:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO product_type_category (name_type,id_product_category) values (\'a\',)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO product_type_category (name_type,id_product_category) values (\'a\',)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO product_type_category (name_type,id_product_category) values (\'a\',)')
+ 4 APPPATH\Controllers\Manajemen_Sub_Category.php(30): CodeIgniter\Database\BaseConnection->query('INSERT INTO product_type_category (name_type,id_product_category) values (\'a\',)')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Sub_Category->add()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Sub_Category))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-15 03:07:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id='24'' at line 1
+CRITICAL - 2022-07-15 03:07:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id='24'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE product_type_category SET name_type =\'aa\' , id_product_category=1, WHERE id=\'24\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE product_type_category SET name_type =\'aa\' , id_product_category=1, WHERE id=\'24\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE product_type_category SET name_type =\'aa\' , id_product_category=1, WHERE id=\'24\'')
+ 4 APPPATH\Controllers\Manajemen_Sub_Category.php(39): CodeIgniter\Database\BaseConnection->query('UPDATE product_type_category SET name_type =\'aa\' , id_product_category=1, WHERE id=\'24\'')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Sub_Category->update()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Sub_Category))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-15 03:08:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id='24'' at line 1
+CRITICAL - 2022-07-15 03:08:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id='24'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE product_type_category SET name_type =\'aa\' , id_product_category=1, WHERE id=\'24\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE product_type_category SET name_type =\'aa\' , id_product_category=1, WHERE id=\'24\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE product_type_category SET name_type =\'aa\' , id_product_category=1, WHERE id=\'24\'')
+ 4 APPPATH\Controllers\Manajemen_Sub_Category.php(40): CodeIgniter\Database\BaseConnection->query('UPDATE product_type_category SET name_type =\'aa\' , id_product_category=1, WHERE id=\'24\'')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Sub_Category->update()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Sub_Category))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 04:00:47 --> Undefined property: stdClass::$warna
+in APPPATH\Views\data_product.php on line 90.
+ 1 APPPATH\Views\data_product.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$warna', 'APPPATH\\Views\\data_product.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('data_product', [], true)
+ 5 APPPATH\Controllers\Manajemen_Product.php(25): view('data_product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 04:13:06 --> Undefined property: stdClass::$name_produk
+in APPPATH\Views\data_product.php on line 67.
+ 1 APPPATH\Views\data_product.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name_produk', 'APPPATH\\Views\\data_product.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('data_product', [], true)
+ 5 APPPATH\Controllers\Manajemen_Product.php(25): view('data_product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 20:37:18 --> Undefined property: stdClass::$category
+in APPPATH\Views\data_product.php on line 72.
+ 1 APPPATH\Views\data_product.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$category', 'APPPATH\\Views\\data_product.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('data_product', [], true)
+ 5 APPPATH\Controllers\Manajemen_Product.php(25): view('data_product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 20:49:13 --> Unsupported operand types: string - string
+in APPPATH\Views\data_product.php on line 219.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('data_product', [], true)
+ 4 APPPATH\Controllers\Manajemen_Product.php(26): view('data_product', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 21:17:36 --> Too few arguments to function App\Controllers\Manajemen_Product::data_image(), 0 passed in C:\xampp\htdocs\shop\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Manajemen_Product.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->data_image()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 21:39:55 --> Undefined property: stdClass::$nama_produk
+in APPPATH\Views\manajemen_data_image_product.php on line 94.
+ 1 APPPATH\Views\manajemen_data_image_product.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_produk', 'APPPATH\\Views\\manajemen_data_image_product.php', 94)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manajemen_data_image_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('manajemen_data_image_product', [], true)
+ 5 APPPATH\Controllers\Manajemen_Product.php(71): view('manajemen_data_image_product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->data_image()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 22:48:37 --> Undefined array key "image_product"
+in APPPATH\Controllers\Manajemen_Product.php on line 79.
+ 1 APPPATH\Controllers\Manajemen_Product.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image_product"', 'APPPATH\\Controllers\\Manajemen_Product.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->add_image()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 22:49:38 --> Call to a member function getName() on null
+in APPPATH\Controllers\Manajemen_Product.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->add_image()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 22:49:57 --> Call to a member function getName() on null
+in APPPATH\Controllers\Manajemen_Product.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->add_image()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 22:51:43 --> Undefined array key "image_product"
+in APPPATH\Controllers\Manajemen_Product.php on line 79.
+ 1 APPPATH\Controllers\Manajemen_Product.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image_product"', 'APPPATH\\Controllers\\Manajemen_Product.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->add_image()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-15 22:52:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-07-15 22:52:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.`id_pembuat`,a.`judul`,a.`id`,a.`nama_file`,a.`pesan`,c.`fullname`,b.`nama`,b.`tahun`,a.`create_at` FROM detail_data_project a LEFT JOIN data_project b ON a.`id_project`=b.`id` LEFT JOIN users c ON a.`id_pembuat`=c.`id` WHERE a.`id_project`=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.`id_pembuat`,a.`judul`,a.`id`,a.`nama_file`,a.`pesan`,c.`fullname`,b.`nama`,b.`tahun`,a.`create_at` FROM detail_data_project a LEFT JOIN data_project b ON a.`id_project`=b.`id` LEFT JOIN users c ON a.`id_pembuat`=c.`id` WHERE a.`id_project`=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.`id_pembuat`,a.`judul`,a.`id`,a.`nama_file`,a.`pesan`,c.`fullname`,b.`nama`,b.`tahun`,a.`create_at` FROM detail_data_project a LEFT JOIN data_project b ON a.`id_project`=b.`id` LEFT JOIN users c ON a.`id_pembuat`=c.`id` WHERE a.`id_project`=')
+ 4 APPPATH\Controllers\Detail_Project_Saya.php(19): CodeIgniter\Database\BaseConnection->query('SELECT a.`id_pembuat`,a.`judul`,a.`id`,a.`nama_file`,a.`pesan`,c.`fullname`,b.`nama`,b.`tahun`,a.`create_at` FROM detail_data_project a LEFT JOIN data_project b ON a.`id_project`=b.`id` LEFT JOIN users c ON a.`id_pembuat`=c.`id` WHERE a.`id_project`=')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Detail_Project_Saya->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail_Project_Saya))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-15 23:04:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-07-15 23:04:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.`id_pembuat`,a.`judul`,a.`id`,a.`nama_file`,a.`pesan`,c.`fullname`,b.`nama`,b.`tahun`,a.`create_at` FROM detail_data_project a LEFT JOIN data_project b ON a.`id_project`=b.`id` LEFT JOIN users c ON a.`id_pembuat`=c.`id` WHERE a.`id_project`=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.`id_pembuat`,a.`judul`,a.`id`,a.`nama_file`,a.`pesan`,c.`fullname`,b.`nama`,b.`tahun`,a.`create_at` FROM detail_data_project a LEFT JOIN data_project b ON a.`id_project`=b.`id` LEFT JOIN users c ON a.`id_pembuat`=c.`id` WHERE a.`id_project`=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.`id_pembuat`,a.`judul`,a.`id`,a.`nama_file`,a.`pesan`,c.`fullname`,b.`nama`,b.`tahun`,a.`create_at` FROM detail_data_project a LEFT JOIN data_project b ON a.`id_project`=b.`id` LEFT JOIN users c ON a.`id_pembuat`=c.`id` WHERE a.`id_project`=')
+ 4 APPPATH\Controllers\Detail_Project_Saya.php(19): CodeIgniter\Database\BaseConnection->query('SELECT a.`id_pembuat`,a.`judul`,a.`id`,a.`nama_file`,a.`pesan`,c.`fullname`,b.`nama`,b.`tahun`,a.`create_at` FROM detail_data_project a LEFT JOIN data_project b ON a.`id_project`=b.`id` LEFT JOIN users c ON a.`id_pembuat`=c.`id` WHERE a.`id_project`=')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Detail_Project_Saya->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail_Project_Saya))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 23:07:49 --> Undefined array key 0
+in APPPATH\Controllers\Manajemen_Product.php on line 118.
+ 1 APPPATH\Controllers\Manajemen_Product.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Manajemen_Product.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->delete_image()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 23:09:49 --> Undefined array key 0
+in APPPATH\Controllers\Manajemen_Product.php on line 118.
+ 1 APPPATH\Controllers\Manajemen_Product.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Manajemen_Product.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->delete_image()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 23:10:14 --> unlink(): Argument #2 ($context) must be of type resource or null, string given
+in APPPATH\Controllers\Manajemen_Product.php on line 118.
+ 1 APPPATH\Controllers\Manajemen_Product.php(118): unlink('FCPATH\\produk', '1-IMG_20201006_122430~2.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->delete_image()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-15 23:10:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-07-15 23:10:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM product_image WHERE id_product=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM product_image WHERE id_product=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM product_image WHERE id_product=')
+ 4 APPPATH\Controllers\Manajemen_Product.php(69): CodeIgniter\Database\BaseConnection->query('SELECT * FROM product_image WHERE id_product=')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->data_image()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 23:13:54 --> unlink(C:\xampp\htdocs\shop\public\produk/1-IMG_20201006_122430~2.jpg): No such file or directory
+in APPPATH\Controllers\Manajemen_Product.php on line 123.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\shop\\public\\produk/1-IMG_20201006_122430~2.jpg): No such file or directory', 'APPPATH\\Controllers\\Manajemen_Product.php', 123)
+ 2 APPPATH\Controllers\Manajemen_Product.php(123): unlink('FCPATH\\produk/1-IMG_20201006_122430~2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->delete_image()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 23:14:09 --> Undefined array key 0
+in APPPATH\Views\manajemen_data_image_product.php on line 31.
+ 1 APPPATH\Views\manajemen_data_image_product.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\manajemen_data_image_product.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manajemen_data_image_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('manajemen_data_image_product', [], true)
+ 5 APPPATH\Controllers\Manajemen_Product.php(76): view('manajemen_data_image_product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->data_image()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 23:15:07 --> Undefined array key 0
+in APPPATH\Views\manajemen_data_image_product.php on line 31.
+ 1 APPPATH\Views\manajemen_data_image_product.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\manajemen_data_image_product.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manajemen_data_image_product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('manajemen_data_image_product', [], true)
+ 5 APPPATH\Controllers\Manajemen_Product.php(76): view('manajemen_data_image_product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->data_image()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 23:16:02 --> unlink(C:\xampp\htdocs\shop\public\produk/1-IMG_20201006_122430~2.jpg): No such file or directory
+in APPPATH\Controllers\Manajemen_Product.php on line 122.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\shop\\public\\produk/1-IMG_20201006_122430~2.jpg): No such file or directory', 'APPPATH\\Controllers\\Manajemen_Product.php', 122)
+ 2 APPPATH\Controllers\Manajemen_Product.php(122): unlink('FCPATH\\produk/1-IMG_20201006_122430~2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->delete_image()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-15 23:16:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-07-15 23:16:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM product_image WHERE id_product=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM product_image WHERE id_product=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM product_image WHERE id_product=')
+ 4 APPPATH\Controllers\Manajemen_Product.php(71): CodeIgniter\Database\BaseConnection->query('SELECT * FROM product_image WHERE id_product=')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->data_image()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-15 23:16:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-07-15 23:16:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM product_image WHERE id_product=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM product_image WHERE id_product=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM product_image WHERE id_product=')
+ 4 APPPATH\Controllers\Manajemen_Product.php(71): CodeIgniter\Database\BaseConnection->query('SELECT * FROM product_image WHERE id_product=')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->data_image()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-15 23:20:17 --> Cannot delete or update a parent row: a foreign key constraint fails (`shop`.`product_image`, CONSTRAINT `product_image_ibfk_1` FOREIGN KEY (`id_product`) REFERENCES `product` (`id`))
+CRITICAL - 2022-07-15 23:20:17 --> Cannot delete or update a parent row: a foreign key constraint fails (`shop`.`product_image`, CONSTRAINT `product_image_ibfk_1` FOREIGN KEY (`id_product`) REFERENCES `product` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM product WHERE id=1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM product WHERE id=1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM product WHERE id=1')
+ 4 APPPATH\Controllers\Manajemen_Product.php(128): CodeIgniter\Database\BaseConnection->query('DELETE FROM product WHERE id=1')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->delete_image()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-15 23:22:03 --> unlink(C:\xampp\htdocs\shop\public\produk/1-IMG_20201006_122430~2.jpg): No such file or directory
+in APPPATH\Controllers\Manajemen_Product.php on line 125.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\shop\\public\\produk/1-IMG_20201006_122430~2.jpg): No such file or directory', 'APPPATH\\Controllers\\Manajemen_Product.php', 125)
+ 2 APPPATH\Controllers\Manajemen_Product.php(125): unlink('FCPATH\\produk/1-IMG_20201006_122430~2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Product->delete_image()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Product))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

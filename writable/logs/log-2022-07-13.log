@@ -1,0 +1,15 @@
+CRITICAL - 2022-07-13 03:18:40 --> Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\shop\app\Controllers\Beranda.php on line 19 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 581.
+ 1 APPPATH\Controllers\Beranda.php(19): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Beranda->coba()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-13 07:45:00 --> Call to undefined function App\Controllers\user()
+in APPPATH\Controllers\Beranda.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

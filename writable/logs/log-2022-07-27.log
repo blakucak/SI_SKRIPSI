@@ -1,0 +1,114 @@
+CRITICAL - 2022-07-27 00:01:03 --> Object of class App\Entities\Users could not be converted to int
+in APPPATH\Controllers\Users.php on line 21.
+ 1 APPPATH\Controllers\Users.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class App\\Entities\\Users could not be converted to int', 'APPPATH\\Controllers\\Users.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Users->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-27 00:01:36 --> count(): Argument #1 ($value) must be of type Countable|array, App\Entities\Users given
+in APPPATH\Controllers\Users.php on line 21.
+ 1 APPPATH\Controllers\Users.php(21): count(Object(App\Entities\Users))
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Users->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-27 00:03:02 --> count(): Argument #1 ($value) must be of type Countable|array, App\Entities\Users given
+in APPPATH\Controllers\Users.php on line 21.
+ 1 APPPATH\Controllers\Users.php(21): count(Object(App\Entities\Users))
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Users->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-27 00:13:01 --> Undefined variable $data
+in APPPATH\Controllers\Users.php on line 26.
+ 1 APPPATH\Controllers\Users.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Users.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Users->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-27 00:20:14 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\HTTP\Response given
+in APPPATH\Controllers\Users.php on line 26.
+ 1 APPPATH\Controllers\Users.php(26): count(Object(CodeIgniter\HTTP\Response))
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Users->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-27 00:21:06 --> count(): Argument #1 ($value) must be of type Countable|array, bool given
+in APPPATH\Controllers\Users.php on line 26.
+ 1 APPPATH\Controllers\Users.php(26): count(false)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Users->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-27 00:21:25 --> count(): Argument #1 ($value) must be of type Countable|array, App\Entities\Users given
+in APPPATH\Controllers\Users.php on line 26.
+ 1 APPPATH\Controllers\Users.php(26): count(Object(App\Entities\Users))
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Users->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-27 00:22:36 --> Undefined variable $id
+in APPPATH\Controllers\Users.php on line 20.
+ 1 APPPATH\Controllers\Users.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Users.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Users->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-27 00:22:40 --> Undefined variable $id
+in APPPATH\Controllers\Users.php on line 20.
+ 1 APPPATH\Controllers\Users.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Users.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Users->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-27 03:07:35 --> Table 'users' already exists
+CRITICAL - 2022-07-27 03:07:35 --> require(C:\xampp\htdocs\rest-api\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 123.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp\\htdocs\\rest-api\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'SYSTEMPATH\\CLI\\BaseCommand.php', 123)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(123): require()
+ 3 SYSTEMPATH\Commands\Database\Migrate.php(98): CodeIgniter\CLI\BaseCommand->showError(Object(mysqli_sql_exception))
+ 4 SYSTEMPATH\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run([])
+ 5 SYSTEMPATH\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', [])
+ 6 SYSTEMPATH\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index([])
+ 7 SYSTEMPATH\CodeIgniter.php(889): CodeIgniter\CLI\CommandRunner->_remap('index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+ 9 SYSTEMPATH\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+11 ROOTPATH\spark(86): CodeIgniter\CLI\Console->run()
+ERROR - 2022-07-27 03:09:49 --> Table 'users' already exists
+CRITICAL - 2022-07-27 03:09:49 --> require(C:\xampp\htdocs\rest-api\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 123.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp\\htdocs\\rest-api\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'SYSTEMPATH\\CLI\\BaseCommand.php', 123)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(123): require()
+ 3 SYSTEMPATH\Commands\Database\Migrate.php(98): CodeIgniter\CLI\BaseCommand->showError(Object(mysqli_sql_exception))
+ 4 SYSTEMPATH\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run([])
+ 5 SYSTEMPATH\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', [])
+ 6 SYSTEMPATH\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index([])
+ 7 SYSTEMPATH\CodeIgniter.php(889): CodeIgniter\CLI\CommandRunner->_remap('index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+ 9 SYSTEMPATH\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+11 ROOTPATH\spark(86): CodeIgniter\CLI\Console->run()
+ERROR - 2022-07-27 03:10:08 --> Table 'users' already exists
+CRITICAL - 2022-07-27 03:10:08 --> require(C:\xampp\htdocs\rest-api\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\CLI\BaseCommand.php on line 123.
+ 1 SYSTEMPATH\CLI\BaseCommand.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp\\htdocs\\rest-api\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'SYSTEMPATH\\CLI\\BaseCommand.php', 123)
+ 2 SYSTEMPATH\CLI\BaseCommand.php(123): require()
+ 3 SYSTEMPATH\Commands\Database\Migrate.php(98): CodeIgniter\CLI\BaseCommand->showError(Object(mysqli_sql_exception))
+ 4 SYSTEMPATH\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run([])
+ 5 SYSTEMPATH\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', [])
+ 6 SYSTEMPATH\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index([])
+ 7 SYSTEMPATH\CodeIgniter.php(889): CodeIgniter\CLI\CommandRunner->_remap('index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+ 9 SYSTEMPATH\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+11 ROOTPATH\spark(86): CodeIgniter\CLI\Console->run()
