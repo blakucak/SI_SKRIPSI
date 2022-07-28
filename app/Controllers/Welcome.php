@@ -11,6 +11,6 @@ class Welcome extends BaseController
 {
   public function index()
   {
-    echo "SUCCESS";
+    echo "CodeIgniter-4 Run SUCCESS";
   }
 }
