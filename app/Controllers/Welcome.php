@@ -17,5 +17,7 @@ class Welcome extends BaseController
     echo "verdi yang";
     echo "kjaskjdnka";
     echo "mahrus lagi lagi";
+    echo "1";
+    echo "2";
   }
 }
