@@ -14,5 +14,6 @@ class Welcome extends BaseController
     echo "CodeIgniter-4 Run SUCCESS.";
     echo "Mahrus";
     echo "Mahrus 2";
+    echo "verdi yang edit";
   }
 }
